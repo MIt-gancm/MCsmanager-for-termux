@@ -4,8 +4,11 @@ Install MCsmanager for termux
                 2.MCsmanager
 利用本脚本快速安装MCsmanager到受termux(Zerotermux)支持的安卓手机上)
 # 1.准备
-先去
-https://github.com/termux/termux-app#github
+先去<a href="https://github.com/termux/termux-app#github">
+    <button>下载termux</button>
+</a>
 下载并安装termux
-『https://github.com/hanxinhao000/ZeroTermux
-  Zerotermux                                   』
+『<a href="https://github.com/hanxinhao000/ZeroTermux">
+    <button>下载Zerotermux</button>
+  </a>
+  下载并安装Zerotermux                                   』
