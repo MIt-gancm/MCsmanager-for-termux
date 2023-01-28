@@ -13,6 +13,11 @@ Install MCsmanager for termux
   </a>
   下载并安装Zerotermux                                   』
 # 2.git项目
-```ruby
-
 ```
+git clone https://github.com/MIt-gancm/-for-termux.git
+```
+# 3.安装
+```
+chmod 777 ./-for-termux/Install.sh && bash ./-for-termux/Install.sh
+```
+# 注意！
