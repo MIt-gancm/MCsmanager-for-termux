@@ -12,3 +12,7 @@ Install MCsmanager for termux
     <button>下载Zerotermux</button>
   </a>
   下载并安装Zerotermux                                   』
+# 2.git项目
+```ruby
+
+```
