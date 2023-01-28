@@ -24,7 +24,8 @@ chmod 777 ./MCsmanager-for-termux/Install.sh && bash ./MCsmanager-for-termux/Ins
 没有proot屁乌班图20.04一定要在第2个弹窗选『我没有安装proot ubuntu』
 这里会安装TRSS Script（时雨🌌星空）大佬的作品
 安装完成后依次选择proot  乌班图   20.04 启动容器 等待安装完成
-```mv ./MCsmanager-for-termux/Install.sh /data/data/com.termux/files/home/.local/share/tmoe-linux/containers/proot/ubuntu-focal_arm64/root/
+```
+ mv ./MCsmanager-for-termux/Install.sh /data/data/com.termux/files/home/.local/share/tmoe-linux/containers/proot/ubuntu-focal_arm64/root/
 ```
 移动脚本到proot镜像/root目录
 登录proot镜像
@@ -46,3 +47,4 @@ node app.js
 # 访问 http://localhost:23333/ 即可进入面板。
 # 默认情况下，面板端会自动扫描 daemon 文件夹并且自动连接到守护进程。
 ```
+# 完成 想用面板吧
