@@ -2,6 +2,7 @@
 Install MCsmanager for termux
 这里要用到两个项目 1.termux(国区优先考虑Zerotermux)
                 2.MCsmanager
+                3.TRSS Script By时雨🌌星空
 利用本脚本快速安装MCsmanager到受termux(Zerotermux)支持的安卓手机上)
 # 1.准备
 先去<a href="https://github.com/termux/termux-app#github">
@@ -22,7 +23,7 @@ chmod 777 ./MCsmanager-for-termux/Install.sh && bash ./MCsmanager-for-termux/Ins
 ```
 # 注意！
 没有proot屁乌班图20.04一定要在第2个弹窗选『我没有安装proot ubuntu』
-这里会安装TRSS Script（时雨🌌星空）大佬的作品
+这里会安装TRSS Script  By时雨🌌星空 大佬的作品
 安装完成后依次选择proot  乌班图   20.04 启动容器 等待安装完成
 ```
  mv ./MCsmanager-for-termux/Install.sh /data/data/com.termux/files/home/.local/share/tmoe-linux/containers/proot/ubuntu-focal_arm64/root/
