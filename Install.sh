@@ -16,12 +16,16 @@ if [ "$current_user" != "root" ]; then
         else
                 echo "当前用户 $current_user 具备root权限"
                 ##判断root权限完成
-                whiptail --title "安装必要程序" --msgbox '默认java8/11/13/16/17 wget' 10 60
+                whiptail --title "安装必要程序" --msgbox '' 10 60
+                 if (whiptail --title "Java" --yes-button '我选择安装' --no-button "我选择不安装"  --yesno "安装全套JAVA文件具体要Java8/11/13/16/17 预计占用内存3GB(拒绝的无法开Java服务器 基岩版不受影响) " 15 70) then
                 apt install openjdk-8-jdk -y
                 apt install openjdk-11-jdk -y
                 apt install openjdk-13-jdk -y
                 apt install openjdk-16-jdk -y
                 apt install openjdk-17-jdk -y
+                else
+                echo '继续安装wget'
+                fi
                 apt install wget -y
                 whiptail --title "Java" --msgbox "后续使用sudo update-alternatives --config java选择默认Java版本" 10 60 
                   whiptail --title "安装面板" --msgbox "回车继续" 10 60
