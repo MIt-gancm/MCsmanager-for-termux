@@ -21,3 +21,28 @@ git clone https://github.com/MIt-gancm/-for-termux.git
 chmod 777 ./-for-termux/Install.sh && bash ./-for-termux/Install.sh
 ```
 # 注意！
+没有proot屁乌班图20.04一定要在第2个弹窗选『我没有安装proot ubuntu』
+这里会安装TRSS Script（时雨🌌星空）大佬的作品
+安装完成后依次选择proot  乌班图   20.04 启动容器 等待安装完成
+```mv .-for-termux/Install.sh /data/data/com.termux/files/home/.local/share/tmoe-linux/containers/proot/ubuntu-focal_arm64/root/
+```
+移动脚本到proot镜像/root目录
+登录proot镜像
+再次运行脚本一路回车就行了
+# 启动
+termux(Zerotermux)的自身原因安装完成后的启动指令无效或报错所以要手动启动面板
+```
+# 打开两个终端或两个 Screen 软件的终端窗口
+# 先启动守护进程
+cd /opt/mcsmanager/daemon
+# 启动
+node app.js
+
+# 然后启动面板端进程
+cd /opt/mcsmanager/web
+# 启动
+node app.js
+
+# 访问 http://localhost:23333/ 即可进入面板。
+# 默认情况下，面板端会自动扫描 daemon 文件夹并且自动连接到守护进程。
+```
