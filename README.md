@@ -1,6 +1,6 @@
 # MCsmanager-for-termux
 Install MCsmanager for termux
-这里要用到两个项目 1.termux(国区优先考虑Zerotermux)
+这里要用到三个项目 1.termux(国区优先考虑Zerotermux)
                 2.MCsmanager
                 3.TRSS Script By时雨🌌星空
 利用本脚本快速安装MCsmanager到受termux(Zerotermux)支持的安卓手机上)
@@ -13,7 +13,7 @@ Install MCsmanager for termux
     <button>下载Zerotermux</button>
   </a>
   下载并安装Zerotermux                                   』
-# 2.git项目
+# 2.git项目₍˄·͈༝·͈˄*₎◞ ̑̑
 ```
 git clone https://github.com/MIt-gancm/MCsmanager-for-termux.git
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/MIt-gancm/MCsmanager-for-termux.git
 ```
 chmod 777 ./MCsmanager-for-termux/Install.sh && bash ./MCsmanager-for-termux/Install.sh
 ```
-# 注意！
+# 注意！(*´I`*)
 没有proot屁乌班图20.04一定要在第2个弹窗选『我没有安装proot ubuntu』
 这里会安装TRSS Script  By时雨🌌星空 大佬的作品
 安装完成后依次选择proot  乌班图   20.04 启动容器 等待安装完成
@@ -48,4 +48,4 @@ node app.js
 # 访问 http://localhost:23333/ 即可进入面板。
 # 默认情况下，面板端会自动扫描 daemon 文件夹并且自动连接到守护进程。
 ```
-# 完成 想用面板吧
+# 完成 享用面板吧(˃ ⌑ ˂ഃ )
